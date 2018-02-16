@@ -28,10 +28,11 @@ class MapController: UIViewController {
         
         print("comments: \(post.getComments()); likes: \(post.getLikes());")
         print("tuple: \(post.getCounters()); \(post.getDisplayTimeAgo(date:  Date(timeIntervalSinceNow: -60*60*24*7*4)))")
+        print("userId: \(post.user?.id)")
         
         
         view.backgroundColor = UIColor.blue
-        GMSServices.provideAPIKey("AIzaSyBFiXpnJYtkHv5Sudd1egAlnq4cFFmZmf4")
+        GMSServices.provideAPIKey("your_key_here")
         
         //20.7321983,-103.3736167,16.05
         let camera = GMSCameraPosition.camera(withLatitude: 20.7321983, longitude: -103.3736167, zoom: 14.05)

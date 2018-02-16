@@ -16,6 +16,7 @@ class User {
     init(name: String, image: String){
         self.name = name
         self.image = image
+        self.id = UUID().uuidString
     }
     
 }
