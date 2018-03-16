@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842EA672205B8D3E003A2FA0 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EA671205B8D3E003A2FA0 /* Point.swift */; };
 		8467B3ED2036A898009FC0AE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467B3EC2036A898009FC0AE /* User.swift */; };
 		8467B3EF2036A914009FC0AE /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467B3EE2036A914009FC0AE /* Post.swift */; };
 		8467B3F12036AC10009FC0AE /* Date+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467B3F02036AC10009FC0AE /* Date+extension.swift */; };
@@ -16,11 +17,15 @@
 		848407302032A75E000589E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8484072E2032A75E000589E3 /* Main.storyboard */; };
 		848407322032A75E000589E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848407312032A75E000589E3 /* Assets.xcassets */; };
 		848407352032A75E000589E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848407332032A75E000589E3 /* LaunchScreen.storyboard */; };
+		84AA08F3203BF6E9003AE189 /* CustomMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA08F2203BF6E9003AE189 /* CustomMarkerView.swift */; };
+		84AA08F5203BF8FD003AE189 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA08F4203BF8FD003AE189 /* PreviewView.swift */; };
+		84AA08F7203C0322003AE189 /* AdvancedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA08F6203C0322003AE189 /* AdvancedViewController.swift */; };
 		84F2B3B42032C91B006DF333 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F2B3B32032C91B006DF333 /* LoginController.swift */; };
 		D10CCC40399554E8C2F85EB7 /* libPods-foursquare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F39E98ADC84C3BA64D9A78CF /* libPods-foursquare.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		842EA671205B8D3E003A2FA0 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		8467B3EC2036A898009FC0AE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8467B3EE2036A914009FC0AE /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		8467B3F02036AC10009FC0AE /* Date+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+extension.swift"; sourceTree = "<group>"; };
@@ -32,6 +37,9 @@
 		848407312032A75E000589E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848407342032A75E000589E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848407362032A75E000589E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AA08F2203BF6E9003AE189 /* CustomMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMarkerView.swift; sourceTree = "<group>"; };
+		84AA08F4203BF8FD003AE189 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		84AA08F6203C0322003AE189 /* AdvancedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedViewController.swift; sourceTree = "<group>"; };
 		84F2B3B32032C91B006DF333 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		8DE75D9C15531ECB7A82AC9C /* Pods-foursquare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foursquare.release.xcconfig"; path = "Pods/Target Support Files/Pods-foursquare/Pods-foursquare.release.xcconfig"; sourceTree = "<group>"; };
 		CB7F710656FB98E29638F6A4 /* Pods-foursquare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foursquare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-foursquare/Pods-foursquare.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +89,8 @@
 			children = (
 				8484072A2032A75E000589E3 /* AppDelegate.swift */,
 				8484072C2032A75E000589E3 /* MapController.swift */,
+				84AA08F2203BF6E9003AE189 /* CustomMarkerView.swift */,
+				84AA08F4203BF8FD003AE189 /* PreviewView.swift */,
 				84F2B3B32032C91B006DF333 /* LoginController.swift */,
 				8484072E2032A75E000589E3 /* Main.storyboard */,
 				848407312032A75E000589E3 /* Assets.xcassets */,
@@ -90,6 +100,8 @@
 				8467B3EE2036A914009FC0AE /* Post.swift */,
 				8467B3F02036AC10009FC0AE /* Date+extension.swift */,
 				8467B3F22036AE34009FC0AE /* UIColor+extension.swift */,
+				84AA08F6203C0322003AE189 /* AdvancedViewController.swift */,
+				842EA671205B8D3E003A2FA0 /* Point.swift */,
 			);
 			path = foursquare;
 			sourceTree = "<group>";
@@ -182,11 +194,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-foursquare/Pods-foursquare-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
 				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,9 +249,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8467B3ED2036A898009FC0AE /* User.swift in Sources */,
+				84AA08F3203BF6E9003AE189 /* CustomMarkerView.swift in Sources */,
+				84AA08F5203BF8FD003AE189 /* PreviewView.swift in Sources */,
 				8467B3F12036AC10009FC0AE /* Date+extension.swift in Sources */,
 				8484072D2032A75E000589E3 /* MapController.swift in Sources */,
 				8467B3F32036AE34009FC0AE /* UIColor+extension.swift in Sources */,
+				84AA08F7203C0322003AE189 /* AdvancedViewController.swift in Sources */,
+				842EA672205B8D3E003A2FA0 /* Point.swift in Sources */,
 				84F2B3B42032C91B006DF333 /* LoginController.swift in Sources */,
 				8484072B2032A75E000589E3 /* AppDelegate.swift in Sources */,
 				8467B3EF2036A914009FC0AE /* Post.swift in Sources */,
